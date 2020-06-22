@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+#page1-footer {
+  text-align: center;
+}
+
 #discover {
   background-color: var(--red-mark);
 }
