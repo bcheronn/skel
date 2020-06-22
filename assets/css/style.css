@@ -7,6 +7,10 @@ body {
   background-color: var(--white-mark);
 }
 
+.white-mark-text {
+  color: var(--white-mark);
+}
+
 .red-mark-text {
   color: var(--red-mark);
 }
