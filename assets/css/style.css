@@ -16,6 +16,10 @@ body {
   background-position: bottom;
 }
 
+#missl {
+  background-image: url(../img/missl.png);
+}
+
 #discover {
   background-color: var(--red-mark);
 }
