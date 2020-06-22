@@ -1,0 +1,21 @@
+:root {
+  --white-mark: #f6f6f6;
+  --red-mark: #d63c37;
+}
+
+body {
+  background-color: var(--white-mark);
+}
+
+.red-mark-text {
+  color: var(--red-mark);
+}
+
+#field {
+  background-image: url(../img/field.png);
+  text-align: center;
+}
+
+#discover {
+  background-color: var(--red-mark);
+}
