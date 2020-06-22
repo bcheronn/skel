@@ -3,6 +3,28 @@
   --red-mark: #d63c37;
 }
 
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 body {
   background-color: var(--white-mark);
 }
@@ -18,10 +40,13 @@ body {
 #field {
   background-image: url(../img/field.png);
   background-position: bottom;
+  background-repeat: no-repeat ;
 }
 
 #missl {
   background-image: url(../img/missl.png);
+  background-position: bottom;
+  background-repeat: no-repeat ;
 }
 
 #discover {
