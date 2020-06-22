@@ -1,5 +1,5 @@
 :root {
-  --white-mark: #f6f6f6;
+  --white-mark: #fcfcfc;
   --red-mark: #d63c37;
 }
 
@@ -13,11 +13,7 @@ body {
 
 #field {
   background-image: url(../img/field.png);
-  text-align: center;
-}
-
-#page1-footer {
-  text-align: center;
+  background-position: bottom;
 }
 
 #discover {
