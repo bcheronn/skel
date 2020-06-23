@@ -37,17 +37,21 @@ body {
   color: var(--red-mark);
 }
 
+.menu {
+  right: 1rem;
+
+}
+
+.menu-cell {
+  width: 32px;
+  height: 6px;
+}
+
 #field {
   background-image: url(../img/field.png);
   background-position: bottom;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
 }
-
-/* #missl {
-  background-image: url(../img/missl.png);
-  background-position: bottom;
-  background-repeat: no-repeat ;
-} */
 
 #discover {
   background-color: var(--red-mark);
