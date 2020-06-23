@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Aileron";
+  src: url("assets/fonts/Aileron-Regular") format("woff");
+}
+
 :root {
   --white-mark: #fcfcfc;
   --red-mark: #d63c37;
@@ -27,6 +32,7 @@ html {
 
 body {
   background-color: var(--white-mark);
+  font-family: "Aileron", sans-serif;
 }
 
 .white-mark-text {
@@ -39,7 +45,14 @@ body {
 
 .menu {
   right: 1rem;
+}
 
+.page1-title-font {
+  font-family: "Caladea", serif;
+}
+
+.page3-title-font {
+  font-family: "Myriad Pro", sans-serif;
 }
 
 .menu-cell {
